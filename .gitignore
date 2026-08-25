@@ -1,0 +1,169 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+*.hprof
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# ==========================================
+# 대용량 미디어 및 바이너리 파일
+# ==========================================
+# 압축 파일
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.iso
+
+# 비디오 / 오디오
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# 데이터셋 / 대용량 데이터 파일
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.feather
+*.sql
+*.dump
+
+# 대용량 모델 가중치 / 체크포인트
+*.bin
+*.pt
+*.pth
+*.onnx
+*.weights
+*.ckpt
+*.safetensors
+*.gguf
+
+# 실행 파일 및 라이브러리
+*.exe
+*.msi
+*.dll
+*.so
+*.dylib
+*.apk
+*.aab
+*.ipa
+
+# ==========================================
+# 데이터베이스 & 로그 & 백업
+# ==========================================
+*.sqlite3
+*.db
+*.log
+*.bak
+*.tmp
+*.temp
+
+# ==========================================
+# 환경 변수 및 민감 정보
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.jks
+
+# ==========================================
+# 주요 빌드 산출물 및 패키지 캐시
+# ==========================================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Node / JS
+node_modules/
+.next/
+.nuxt/
+out/
+
+# Android / Mobile / Gradle
+.gradle/
+app/build/
+*.apk.idsig
+
+# C / C++
+*.obj
+*.o
+*.out
+*.app
+
+# ==========================================
+# OS & IDE 캐시
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
